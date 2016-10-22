@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "es6", // we compile to ES6
+      "module": "es6", // this is not really needed, es6 modules are the default for es6 target
+      "sourceMap": true, // create sourceMaps
+      "jsx": "react", // important for JSX support
+      "moduleResolution": "node",
+      "baseUrl": "src"
+    },
+    "exclude": [
+      "node_modules"
+    ]
+}
